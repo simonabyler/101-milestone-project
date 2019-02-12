@@ -1,0 +1,148 @@
+/*Base styles*/
+body {
+  color: #262730;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Martel', serif;
+  font-size: 36px;
+  padding: 125px 0 35px 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#header {
+  background: #d3b99f;
+  height: 800px;
+  margin-top: -45px;
+}
+
+#about {
+  height: 1050px;
+}
+
+#portfolio {
+  height: 800px;
+}
+
+#contact {
+  height: 650px;
+}
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+.color-contrast {
+  background-color: #202020;
+  color: #B8B8B8;
+}
+
+/*Header*/
+h1 {
+  color: #0A1F18;
+  font-family: 'Martel', serif;
+  font-size: 64px;
+  padding: 200px 0 0 0;
+  text-align: left;
+  width: 900px;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: lighter;
+  line-height: 64px;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  padding: 50px 0;
+}
+
+nav ul li a {
+  color: #262730;
+  font-size: 24px;
+  padding-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* About*/
+#about h2, h4, p {
+  margin: auto;
+  width: 450px;
+}
+
+#about h4 {
+  padding: 35px 0 15px 0;
+}
+
+#about p {
+  padding: 0 0 25px 0;
+}
+
+#about img {
+  border: 5px solid #B8B8B8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Portfolio*/
+#portfolio h4 {
+  padding: 20px 0 10px 0;
+  width: 400px;
+}
+
+#portfolio p {
+  width: 300px;
+}
+
+#portfolio img {
+  border: 1px solid #b8b8b8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Contact*/
+#contact h4 {
+  padding: 20px 0 20px 0;
+}
+
+#contact p {
+  padding-top: 10px;
+}
+
+#contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#contact ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#copyright {
+  font-size: 18px;
+  margin-top: 380px;
+}
