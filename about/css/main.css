@@ -1,0 +1,33 @@
+/*Base styles*/
+body {
+  background: #202020;
+  color: #B8B8B8;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: right;
+}
+
+h1 {
+  font-family: 'Martel', serif;
+  font-size: 240px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 48px;
+  line-height: 44px;
+  padding: 0;
+  margin: -70px 0 90px 0;
+}
+
+.full-width {
+  margin-right: 40px;
+  width: auto;
+}
+
+a {
+  color: inherit;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
